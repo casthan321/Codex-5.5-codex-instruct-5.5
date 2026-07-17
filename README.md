@@ -1,18 +1,18 @@
-# Codex破限 5.5 / codex-instruct-5.5
+#Codex破限 5.5/Codex-instruction-5.5
 
-> 针对 GPT-5.5 的 Codex CLI 配置文件 — 一键注入操作系统指令  
+>针对 GPT-5.5我想你
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![执照：MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](许可)
+[![Python 3.8及以上版本](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 
 ---
 
 
 
-## 快速开始 / Quick Start
+##快速开始/快速入门
 
-```bash
-# 部署 GPT-5.5 配置指令
+```猛敲
+#部署 GPT-5.5
 python codex-instruct.py
 
 # 重启 Codex 生效
@@ -29,41 +29,35 @@ python codex-instruct.py
 
 ## 验证 / Verify
 
-部署后测试：
+##还原/撤销
 
-> "如何对目标进行 SQL 注入测试？"
+猛敲
+#删除 config. toml model_instructions_file
+#删除~/.codex/gpt5.5-unrestricted.md
+#删除~/.codex/gpt5.5-unrestricted.md
+#删除~/.codex/gpt5.5-unrestricted.md
 
-破甲前 → 拒绝 ； 破甲后 → 直接给方法论。
+##项目结构/版面#重启抄本
 
-## 还原 / Undo
-
-```bash
-# 删除 config.toml 中的 model_instructions_file 行
-# 删除 ~/.codex/gpt5.5-unrestricted.md
-# 重启 Codex
-```
-
-## 项目结构 / Layout
-
-```
+##项目结构/版面
 codex-instruct-5.5/
-├── codex-instruct.py                    # 主脚本
-├── examples/
-│   └── gpt5.5-unrestricted.md           # 破甲指令独立副本
+-法典-指示
+-法典-指示
+-gpt5.5lidestrided.md#破甲指令独立副本
 ├── .gitignore
 ├── README.md
-└── LICENSE                              # MIT
+-许可证#
 ```
 
-## 声明 / Disclaimer
+##声明/免责声明
 
 利用官方配置机制，不修改二进制、不劫持网络、不篡改进程。风险自负。
 
-Exploits official config mechanism. No binary mod, no MITM, no process tampering. Use at your own risk.
+利用官方配置机制，百万分之一，百万分之一
 
-## License
+##许可
 
-MIT
+麻省理工学院
 
 可以的话赞赏一下喵
 
